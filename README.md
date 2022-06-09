@@ -19,7 +19,7 @@ nama database : harvard_university_db
 
 tabel yang tersedia;
 
-# mahsiswa_harvard
+1. mahsiswa_harvard
 
 nim_mhs         |   int(16) primary key
 nama_mhs        |   varchar(128)
@@ -32,6 +32,11 @@ tglhr_mhs       |   date
 foto_mhs        |   varchar(128)
 email_mhs       |   varchar(128)
 alamat_mhs      |   varchar(128)
+
+2. admin
+
+uname_adm       |   varchar(255)
+pass_adm        |   varchar(255)
 
 
 Halaman Akses
