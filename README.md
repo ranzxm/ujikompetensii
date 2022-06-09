@@ -21,22 +21,22 @@ tabel yang tersedia;
 
 1. mahsiswa_harvard
 
-nim_mhs         |   int(16) primary key
-nama_mhs        |   varchar(128)
-mhs_ang         |   int(16)
-progstud_mhs    |   varchar(128)
-nik_mhs         |   varchar(255)
-nohp_mhs        |   varchar(128)
-tmptlhr_mhs     |   varchar(128)
-tglhr_mhs       |   date
-foto_mhs        |   varchar(128)
-email_mhs       |   varchar(128)
-alamat_mhs      |   varchar(128)
+nim_mhs         |   int(16) primary key;
+nama_mhs        |   varchar(128);
+mhs_ang         |   int(16);
+progstud_mhs    |   varchar(128);
+nik_mhs         |   varchar(255);
+nohp_mhs        |   varchar(128);
+tmptlhr_mhs     |   varchar(128);
+tglhr_mhs       |   date;
+foto_mhs        |   varchar(128);
+email_mhs       |   varchar(128);
+alamat_mhs      |   varchar(128);
 
 2. admin
 
-uname_adm       |   varchar(255)
-pass_adm        |   varchar(255)
+uname_adm       |   varchar(255);
+pass_adm        |   varchar(255);
 
 
 Halaman Akses
